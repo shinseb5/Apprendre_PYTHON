@@ -1,0 +1,17 @@
+import os
+from pprint import pprint
+import random
+# PENSER A BIEN IMPORTER LES MODULES
+
+# VÉRIFIER SI LA FONCTION EST APPELABLE OU PAS (REPONSE PAR TRUE OU FALSE)
+print(callable(random.randrange))
+print(callable(os.name))
+
+
+# DIR DONNE UNE LISTE BRUTE DES FONCTIONS QUI CORRESPONDENT A L'ARGUMENT DANS LES PARENTÈSES
+# HELP DONNE LES DETAILS SUR L'OBJET OU LA FONCTION CIBLÉ OU GLOBALE
+
+print(dir(random))
+help(random.triangular)
+
+# POUR SORTIR DU TERMINAL FAIRE LA TOUCHE "Q"
